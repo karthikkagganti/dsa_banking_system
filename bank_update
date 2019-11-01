@@ -18,6 +18,7 @@ typedef struct cust
   char pin[10];
 }customer;
 
+customer c1[1000];
 int i=0,pos,flag=-1,m,ac,top=-1;
 float deposite,withdraw,acc[1000];
 char pin[100];
@@ -47,7 +48,7 @@ int menu()
 
 void new_cust()
 {
-  customer c1[1000];
+ 
   printf("\nEnter your name:\n");
   scanf("%s",c1[i].name);
   printf("Enter your 4-digit A/C number:\n");
