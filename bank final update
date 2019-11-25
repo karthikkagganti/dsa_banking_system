@@ -144,7 +144,7 @@ int auth()
     int ch2;
     do
     {
-      printf("\nEnter '1' to withdraw money\nEnter '2' To deposit money\nEnter '3' To check the balnce of your account\nEnter '4' To change PIN\n Enter '5' To check the last 3 balances\nEnter '6' To go to the previous menu\nEnter '7' to EXIT");
+      printf("\nEnter '1' to withdraw money    Enter '2' To deposit money\nEnter '3' To check the balnce of your account    Enter '4' To change PIN\n Enter '5' To check the detailes of the account holder    Enter '6' To go to the previous menu\nEnter '7' to EXIT");
      scanf("%d",&ch2);
      switch(ch2)
      {
@@ -163,8 +163,11 @@ int auth()
       break;
 
       case 3:
-      peek(1);
-      
+      printf("enter the account number");
+      scanf("%d",&ac);
+      search(ac);
+      printf("the name of the account holder is\n%s",c1[a].name);
+      printf("the account number is\n%d",ac);
       break;
 
       case 4:
