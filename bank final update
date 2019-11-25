@@ -144,7 +144,7 @@ int auth()
     int ch2;
     do
     {
-      printf("\nEnter '1' to withdraw money\nEnter '2' To deposit money\nEnter '3' To check the balnce of your account\nEnter '4' To change PIN\n Enter '5' To check the last 3 transactions\nEnter '6' To go to the previous menu\nEnter '7' to EXIT");
+      printf("\nEnter '1' to withdraw money\nEnter '2' To deposit money\nEnter '3' To check the balnce of your account\nEnter '4' To change PIN\n Enter '5' To check the last 3 balances\nEnter '6' To go to the previous menu\nEnter '7' to EXIT");
      scanf("%d",&ch2);
      switch(ch2)
      {
