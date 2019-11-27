@@ -1,5 +1,3 @@
-
-
 #include<stdio.h>
 
 int menu();
@@ -96,7 +94,7 @@ int search(int ac)
   }
   if(flag>=0)
   {
-    printf("\nAccess granted!\n");
+    printf("\naccount found\n");
     return 1;
     a=pos;
   }
@@ -144,7 +142,7 @@ int auth()
     int ch2;
     do
     {
-      printf("\nEnter '1' to withdraw money    Enter '2' To deposit money\nEnter '3' To check the balnce of your account    Enter '4' To change PIN\n Enter '5' To check the detailes of the account holder    Enter '6' To go to the previous menu\nEnter '7' to EXIT");
+      printf("\nEnter '1' to withdraw money\nEnter '2' To deposit money\nEnter '3' To check the balnce of your account\nEnter '4' To change PIN\n Enter '5' To check the detailes of the account holder\nEnter '6' To go to the previous menu\nEnter '7' to EXIT");
      scanf("%d",&ch2);
      switch(ch2)
      {
